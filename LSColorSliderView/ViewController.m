@@ -20,8 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.colorSlider = [[LSColorSliderView alloc] initWithStyle:LSColorSliderStyleSAT];
-    self.colorSlider.value = 120;
+    self.colorSlider = [[LSColorSliderView alloc] initWithStyle:LSColorSliderStyleCCT];
+    self.colorSlider.value = 60;
     self.colorSlider.satColor = UIColor.orangeColor;
     [self.view addSubview:self.colorSlider];
     [self.colorSlider mas_makeConstraints:^(MASConstraintMaker *make) {
