@@ -1,6 +1,6 @@
 # LSColorSliderView
 
-![SAT](https://github.com/Sidus-WeiRuJian/LSColorSliderView/blob/main/image/SAT.png)
+![SAT](https://github.com/Sidus-WeiRuJian/LSColorSliderView/blob/main/image/SAT.png =100*216)
 
 ### Using
 
