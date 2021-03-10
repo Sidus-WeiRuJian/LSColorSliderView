@@ -1,0 +1,6 @@
+framework module Pods_LSColorSliderView {
+  umbrella header "Pods-LSColorSliderView-umbrella.h"
+
+  export *
+  module * { export * }
+}

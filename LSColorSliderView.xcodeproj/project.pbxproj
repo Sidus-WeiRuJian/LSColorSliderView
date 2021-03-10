@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84A7EE3E25F7790700FC253D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A7EE3D25F7790700FC253D /* AppDelegate.m */; };
+		84A7EE4125F7790700FC253D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A7EE4025F7790700FC253D /* SceneDelegate.m */; };
+		84A7EE4425F7790700FC253D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A7EE4325F7790700FC253D /* ViewController.m */; };
+		84A7EE4725F7790700FC253D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A7EE4525F7790700FC253D /* Main.storyboard */; };
+		84A7EE4925F7790900FC253D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A7EE4825F7790900FC253D /* Assets.xcassets */; };
+		84A7EE4C25F7790900FC253D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A7EE4A25F7790900FC253D /* LaunchScreen.storyboard */; };
+		84A7EE4F25F7790900FC253D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A7EE4E25F7790900FC253D /* main.m */; };
+		84A7EE5925F7792B00FC253D /* LSColorSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A7EE5825F7792B00FC253D /* LSColorSliderView.m */; };
+		84A7EE5E25F7795400FC253D /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A7EE5D25F7795400FC253D /* TestViewController.m */; };
+		84BF048425F856990019F564 /* MSColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF048325F856990019F564 /* MSColorUtils.m */; };
+		E70D1A18938B27664A0408C8 /* Pods_LSColorSliderView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E761E1D42299324693AA0A2F /* Pods_LSColorSliderView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63771DA466382BAFF94904A0 /* Pods-LSColorSliderView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSColorSliderView.debug.xcconfig"; path = "Target Support Files/Pods-LSColorSliderView/Pods-LSColorSliderView.debug.xcconfig"; sourceTree = "<group>"; };
+		84A7EE3925F7790700FC253D /* LSColorSliderView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSColorSliderView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A7EE3C25F7790700FC253D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84A7EE3D25F7790700FC253D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84A7EE3F25F7790700FC253D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		84A7EE4025F7790700FC253D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		84A7EE4225F7790700FC253D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84A7EE4325F7790700FC253D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84A7EE4625F7790700FC253D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84A7EE4825F7790900FC253D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84A7EE4B25F7790900FC253D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84A7EE4D25F7790900FC253D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A7EE4E25F7790900FC253D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84A7EE5725F7792B00FC253D /* LSColorSliderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSColorSliderView.h; sourceTree = "<group>"; };
+		84A7EE5825F7792B00FC253D /* LSColorSliderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSColorSliderView.m; sourceTree = "<group>"; };
+		84A7EE5C25F7795400FC253D /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		84A7EE5D25F7795400FC253D /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		84BF048225F856990019F564 /* MSColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSColorUtils.h; sourceTree = "<group>"; };
+		84BF048325F856990019F564 /* MSColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSColorUtils.m; sourceTree = "<group>"; };
+		DE47EA9E9A11BF879321051B /* Pods-LSColorSliderView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSColorSliderView.release.xcconfig"; path = "Target Support Files/Pods-LSColorSliderView/Pods-LSColorSliderView.release.xcconfig"; sourceTree = "<group>"; };
+		E761E1D42299324693AA0A2F /* Pods_LSColorSliderView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSColorSliderView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84A7EE3625F7790700FC253D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70D1A18938B27664A0408C8 /* Pods_LSColorSliderView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E2E20CCA6312CEBCDA63740 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E761E1D42299324693AA0A2F /* Pods_LSColorSliderView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84A7EE3025F7790700FC253D = {
+			isa = PBXGroup;
+			children = (
+				84A7EE3B25F7790700FC253D /* LSColorSliderView */,
+				84A7EE3A25F7790700FC253D /* Products */,
+				EA4E61E9D527C0FA9CA2A9B6 /* Pods */,
+				4E2E20CCA6312CEBCDA63740 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84A7EE3A25F7790700FC253D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84A7EE3925F7790700FC253D /* LSColorSliderView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84A7EE3B25F7790700FC253D /* LSColorSliderView */ = {
+			isa = PBXGroup;
+			children = (
+				84BF048225F856990019F564 /* MSColorUtils.h */,
+				84BF048325F856990019F564 /* MSColorUtils.m */,
+				84A7EE5625F7791600FC253D /* LSColorSlider */,
+				84A7EE3C25F7790700FC253D /* AppDelegate.h */,
+				84A7EE3D25F7790700FC253D /* AppDelegate.m */,
+				84A7EE3F25F7790700FC253D /* SceneDelegate.h */,
+				84A7EE4025F7790700FC253D /* SceneDelegate.m */,
+				84A7EE4225F7790700FC253D /* ViewController.h */,
+				84A7EE4325F7790700FC253D /* ViewController.m */,
+				84A7EE5C25F7795400FC253D /* TestViewController.h */,
+				84A7EE5D25F7795400FC253D /* TestViewController.m */,
+				84A7EE4525F7790700FC253D /* Main.storyboard */,
+				84A7EE4825F7790900FC253D /* Assets.xcassets */,
+				84A7EE4A25F7790900FC253D /* LaunchScreen.storyboard */,
+				84A7EE4D25F7790900FC253D /* Info.plist */,
+				84A7EE4E25F7790900FC253D /* main.m */,
+			);
+			path = LSColorSliderView;
+			sourceTree = "<group>";
+		};
+		84A7EE5625F7791600FC253D /* LSColorSlider */ = {
+			isa = PBXGroup;
+			children = (
+				84A7EE5725F7792B00FC253D /* LSColorSliderView.h */,
+				84A7EE5825F7792B00FC253D /* LSColorSliderView.m */,
+			);
+			path = LSColorSlider;
+			sourceTree = "<group>";
+		};
+		EA4E61E9D527C0FA9CA2A9B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63771DA466382BAFF94904A0 /* Pods-LSColorSliderView.debug.xcconfig */,
+				DE47EA9E9A11BF879321051B /* Pods-LSColorSliderView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84A7EE3825F7790700FC253D /* LSColorSliderView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A7EE5225F7790900FC253D /* Build configuration list for PBXNativeTarget "LSColorSliderView" */;
+			buildPhases = (
+				A6A870645832FBC4C60A3789 /* [CP] Check Pods Manifest.lock */,
+				84A7EE3525F7790700FC253D /* Sources */,
+				84A7EE3625F7790700FC253D /* Frameworks */,
+				84A7EE3725F7790700FC253D /* Resources */,
+				A11D13247E9CFC62CB7485D8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSColorSliderView;
+			productName = LSColorSliderView;
+			productReference = 84A7EE3925F7790700FC253D /* LSColorSliderView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84A7EE3125F7790700FC253D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "Sidus Link";
+				TargetAttributes = {
+					84A7EE3825F7790700FC253D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 84A7EE3425F7790700FC253D /* Build configuration list for PBXProject "LSColorSliderView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84A7EE3025F7790700FC253D;
+			productRefGroup = 84A7EE3A25F7790700FC253D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84A7EE3825F7790700FC253D /* LSColorSliderView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84A7EE3725F7790700FC253D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A7EE4C25F7790900FC253D /* LaunchScreen.storyboard in Resources */,
+				84A7EE4925F7790900FC253D /* Assets.xcassets in Resources */,
+				84A7EE4725F7790700FC253D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A11D13247E9CFC62CB7485D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LSColorSliderView/Pods-LSColorSliderView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LSColorSliderView/Pods-LSColorSliderView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LSColorSliderView/Pods-LSColorSliderView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6A870645832FBC4C60A3789 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LSColorSliderView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84A7EE3525F7790700FC253D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A7EE5E25F7795400FC253D /* TestViewController.m in Sources */,
+				84A7EE5925F7792B00FC253D /* LSColorSliderView.m in Sources */,
+				84BF048425F856990019F564 /* MSColorUtils.m in Sources */,
+				84A7EE4425F7790700FC253D /* ViewController.m in Sources */,
+				84A7EE3E25F7790700FC253D /* AppDelegate.m in Sources */,
+				84A7EE4F25F7790900FC253D /* main.m in Sources */,
+				84A7EE4125F7790700FC253D /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84A7EE4525F7790700FC253D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A7EE4625F7790700FC253D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84A7EE4A25F7790900FC253D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A7EE4B25F7790900FC253D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84A7EE5025F7790900FC253D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84A7EE5125F7790900FC253D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84A7EE5325F7790900FC253D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63771DA466382BAFF94904A0 /* Pods-LSColorSliderView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LSColorSliderView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = choshim.wei.LSColorSliderView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84A7EE5425F7790900FC253D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE47EA9E9A11BF879321051B /* Pods-LSColorSliderView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LSColorSliderView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = choshim.wei.LSColorSliderView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84A7EE3425F7790700FC253D /* Build configuration list for PBXProject "LSColorSliderView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A7EE5025F7790900FC253D /* Debug */,
+				84A7EE5125F7790900FC253D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A7EE5225F7790900FC253D /* Build configuration list for PBXNativeTarget "LSColorSliderView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A7EE5325F7790900FC253D /* Debug */,
+				84A7EE5425F7790900FC253D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84A7EE3125F7790700FC253D /* Project object */;
+}
