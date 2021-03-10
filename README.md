@@ -1,4 +1,7 @@
-# LSColorSliderView
+# LSColorSliderView 
+
+![INT](https://github.com/Sidus-WeiRuJian/LSColorSliderView/blob/main/image/INT.png)
+![SAT](https://github.com/Sidus-WeiRuJian/LSColorSliderView/blob/main/image/SAT.png)
 
 ### Using
 ```Objective-C
