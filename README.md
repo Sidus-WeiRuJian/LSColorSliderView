@@ -1,7 +1,7 @@
 # LSColorSliderView
 
 ### Using
-```
+```Objective-C
 LSColorSliderView *colorSlider = [[LSColorSliderView alloc] initWithStyle:LSColorSliderStyleSAT];
 colorSlider.value = 100;
 colorSlider.satColor = UIColor.orangeColor;
